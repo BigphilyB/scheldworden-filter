@@ -21,6 +21,7 @@ $result = $product->readAll();
 $num = $result->num_rows;
 
 // check if more than 0 record found
+
 if($num>0){
 
    // products array

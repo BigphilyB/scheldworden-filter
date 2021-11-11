@@ -54,7 +54,7 @@ class scheldworden
         echo $query;
         return $result;
     }
-    function Delete($id, $woord, $goedgekeurd, $gredatieScheldwoord, )
+    function Delete($id, $woord, $goedgekeurd, $gredatieScheldwoord )
     {
         
         // select all query
