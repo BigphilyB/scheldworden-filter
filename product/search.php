@@ -17,8 +17,9 @@ $scheldworden = new scheldworden($db);
 
 // read scheldwordens will be here
 // query scheldwordens
-$result = $scheldworden->update(
-     $_POST["woord"],$_POST["goedgekeurd"],$_POST["gradatieScheldwoord"]
 
-);
-?>
+// $result = $scheldworden->update(
+//      $_POST["woord"],$_POST["goedgekeurd"],$_POST["gradatieScheldwoord"]
+
+// );
+// ?>

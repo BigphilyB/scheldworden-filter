@@ -28,8 +28,7 @@ include_once 'objects/scheldworden.php';
 									<th>woord</th>
 									<th>goedgekeurd</th>
 									<th>gradatieScheldwoord</th>
-									<th>overview</th>
-									<th>pages</th>
+									<th>UPDATE</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -46,6 +45,8 @@ if(mysqli_num_rows($result) > 0) {
    echo '<td><a href="update.php?upd='.$sheldwoord['id'].'" class="btn btn-sm btn-warning">Update</a></td>';
    echo '</tr>';
  }
+ echo '<td><a href="gefilterde-text.php?" class="btn btn-sm btn-warning">BEKIJK TEXT</a></td>';  
+
 }
 mysqli_free_result($result);
 mysqli_close($con);
